@@ -145,8 +145,6 @@ class chat_1_activity : AppCompatActivity() {
 //        checkReadExternalStoragePermission()
 
         FirebaseApp.initializeApp(this)
-
-        //firebase token
         FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
             if (!task.isSuccessful) {
                 Log.w("TAG", "Fetching FCM registration token failed", task.exception)
@@ -158,7 +156,6 @@ class chat_1_activity : AppCompatActivity() {
         })
 
         askNotificationPermission()
-
         var requestPermissionLauncher = registerForActivityResult(
             ActivityResultContracts.RequestPermission(),)
         { isGranted: Boolean ->

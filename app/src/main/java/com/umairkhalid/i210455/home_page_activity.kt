@@ -129,6 +129,7 @@ class home_page_activity : AppCompatActivity() , click_listner {
                 false
             )
 
+
             // Initialize SharedPreferences
             val sharedPref_2 = getSharedPreferences("home_adapter_edu_prefs", Context.MODE_PRIVATE)
             val json_1 = sharedPref_2.getString("home_adapter_edu", "")
