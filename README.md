@@ -9,6 +9,9 @@ Currently the app only features a native tech stack so the app can only be insta
 
 ### Installation
 Download the Mentor Me APK from the release section of this repository.
-Install the app in you Android Device
-Create an Account using Sign Up
+
+Install the app in you Android Device.
+
+Create an Account using Sign Up.
+
 And Enjoy :)
